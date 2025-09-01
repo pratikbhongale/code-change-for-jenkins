@@ -6,5 +6,10 @@ pipeline{
                 echo "Hello Checking if pipeline is successfully implemented......."
             }
         }
+        stage("Code Cloning.....") {
+            steps{
+                git url: "https://github.com/pratikbhongale/code-change-for-jenkins.git"
+            }
+        }
     }
 }
