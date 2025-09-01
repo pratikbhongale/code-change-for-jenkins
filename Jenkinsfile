@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Hello") {
             steps{
-                echo "Hello Checking if pipeline is successfully implemented......."
+                echo "Hello Checking if pipeline git is successfully triggered......."
             }
         }
         stage("Code Cloning.....") {
