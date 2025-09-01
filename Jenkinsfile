@@ -11,5 +11,10 @@ pipeline{
                 git url: "https://github.com/pratikbhongale/code-change-for-jenkins.git"
             }
         }
+        stage("making dir"){
+            steps{
+                sh "mkdir jenkins_pipeline"
+            }
+        }
     }
 }
